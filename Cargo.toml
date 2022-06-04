@@ -1,0 +1,17 @@
+[package]
+name = "aws-s3"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Async/Await runtime
+tokio = { version = "1.19.2", features = ["full"] }
+
+# Error helper
+anyhow = "1.0.58"
+
+# AWS crates
+aws-config = "0.15.0"
+aws-sdk-s3 = "0.15.0"
